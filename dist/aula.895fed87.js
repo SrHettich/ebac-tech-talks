@@ -1,0 +1,2 @@
+AOS.init();let dataEvento=new Date("Sep 25, 2025 00:00:00"),timeStampEvento=dataEvento.getTime(),contaHoras=setInterval(function(){let e=timeStampEvento-new Date().getTime(),t=Math.floor(e/864e5),a=Math.floor(e%864e5/36e5),o=Math.floor(e%36e5/6e4),n=Math.floor(e%6e4/1e3),r=`come\xe7a em ${t}d ${a}h ${o}m ${n}s`;document.getElementById("contador").innerText=r,e<0&&(clearInterval(contaHoras),contador.innerText="já acabou.")},1e3);
+//# sourceMappingURL=aula.895fed87.js.map
