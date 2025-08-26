@@ -1,6 +1,7 @@
 @use 'variables';
 
 .event{
+    overflow-x: hidden;
     padding: 80px 0;
         
     &--frontend{

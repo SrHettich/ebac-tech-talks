@@ -120,6 +120,7 @@
 
 .event {
   padding: 80px 0;
+  overflow-x: hidden;
 }
 
 .event--frontend {
